@@ -9,6 +9,11 @@
   padding: 1vw;
   justify-self: center;
   text-align: center;
+  align-items: center;
+
+  display: grid;
+  grid-template-columns: repeat(3, 30vw);
+  grid-gap: 1vw;
 }
 
 .aboutMe {
