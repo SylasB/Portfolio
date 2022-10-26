@@ -1,0 +1,68 @@
+.content {
+  border: 2px black solid;
+  margin: 1vw;
+  padding: 1vw;
+}
+
+.head {
+  border: 2px red solid;
+  padding: 1vw;
+  justify-self: center;
+  text-align: center;
+}
+
+.aboutMe {
+  border: 2px black solid;
+  margin: 1vw;
+  padding: 1vw;
+  align-items: center;
+
+  display: grid;
+  grid-template-columns: repeat(2, 30vw);
+  grid-gap: 1vw;
+}
+
+.aboutMe h3 {
+  border: 2px solid red;
+  text-align: center;
+  font-size: x-large;
+}
+
+.projects {
+  border: 2px solid black;
+  margin: 1vw;
+  padding: 1vw;
+  text-align: center;
+}
+
+.projects h2 {
+  text-decoration: underline;
+}
+
+.projects div div {
+  border: 2px solid green;
+}
+
+.projectExamples {
+  border: 2px solid red;
+  margin: 1vw;
+  padding: 1vw;
+  justify-content: center;
+
+  display: grid;
+  grid-template-columns: repeat(2, 30vw);
+  grid-gap: 1vw;
+}
+
+.contact {
+  border: 2px solid black;
+  margin: 1vw;
+  padding: 1vw;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 40vw);
+}
+
+.contact h4 {
+  text-decoration: underline;
+}
