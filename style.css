@@ -2,7 +2,7 @@ body {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 120s ease infinite;
-  height: 100vh;
+  height: 110vh;
 }
 
 @keyframes gradient {
@@ -28,7 +28,6 @@ a {
 }
 
 .content {
-  border: 2px black solid;
   margin: 1vw;
   padding: 1vw;
 }
@@ -50,7 +49,6 @@ a {
 }
 
 .aboutMe {
-  border: 2px black solid;
   margin: 1vw;
   padding: 1vw;
   align-items: center;
@@ -70,10 +68,13 @@ a {
 }
 
 .projects {
-  border: 2px solid black;
   margin: 1vw;
   padding: 1vw;
   text-align: center;
+}
+
+.projectsImg {
+  width: 25vw;
 }
 
 .projects h2 {
@@ -81,18 +82,16 @@ a {
 }
 
 .projects div div {
-  border: 2px solid green;
 }
 
 .projectExamples {
-  border: 2px solid red;
   margin: 1vw;
   padding: 1vw;
   justify-content: center;
 
   display: grid;
   grid-template-columns: repeat(2, 30vw);
-  grid-gap: 1vw;
+  grid-gap: 2vw;
 }
 
 .projectExamples p {
